@@ -8,10 +8,10 @@
 
 > Cursos para fazer: 
 <br>
-*JavaScript: programando a Orientação a Objetos.
+JavaScript: programando a Orientação a Objetos.
 <br>
-*JavaScript: interfaces e Herança em Orientação a Objetos.
+JavaScript: interfaces e Herança em Orientação a Objetos.
 <br>
-*Node.js com Express.
+Node.js com Express.
 <br>
-*TypeScript.
+TypeScript.
