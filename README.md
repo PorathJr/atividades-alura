@@ -1,17 +1,21 @@
 # Repositótio de Atividades
 
-> Status: Em desenvolvimento.
+> <b>Status:</b> Em desenvolvimento.
 
-> Cursos Finalizados: JAVASCRIPT E HTML: DESENVOLVA UM JOGO E PRATIQUE LÓGICA DE PROGRAMAÇÃO.
+> <b>Cursos Finalizados:</b>
+> <br>
+>-> Javascript e HTML: desenvolva um jogo e pratique lógica de programação.
 
-> Cursos sendo feitos: Git e GitHub: repositório, commit e versões.
+> <b>Cursos sendo feitos:</b> 
+> <br>
+>-> Git e GitHub: repositório, commit e versões.
 
-> Cursos para fazer: <br>
->
->JavaScript: programando a Orientação a Objetos.<br>
->
->JavaScript: interfaces e Herança em Orientação a Objetos.<br>
->
->Node.js com Express.<br>
->
->TypeScript.
+> <b>Cursos para fazer:</b>
+><br>
+>-> JavaScript: programando a Orientação a Objetos.
+><br>
+>-> JavaScript: interfaces e Herança em Orientação a Objetos.
+><br>
+>-> Node.js com Express.
+><br>
+>-> TypeScript.
