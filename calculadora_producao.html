@@ -1,0 +1,198 @@
+<meta charset="utf-8">
+
+
+
+<script>
+	function pulaLinha() {
+		document.write("<br>");
+	}
+	function dw(txt) {
+		document.write(txt);
+		pulaLinha();
+	}
+	
+	var turno = prompt("Qual turno deseja calcular a produção?");
+
+	if (turno >= 3) {
+
+		dw("Insira um turno existente!")
+	}
+
+
+	if (turno == 1){
+
+	
+		//VARIAVEIS BASEADO NOS COLABORADORES PRIMEIRO TURNO
+
+		var operadores = prompt("Qual o número de operadores no Picking hoje?");
+		var capacidadeDia = (operadores * 3000);
+		var hora1 = (capacidadeDia / 8.30);      //6h
+		var hora2 = (hora1 * 2);           //7h
+		var hora3 = (hora2 + hora1);       //8h
+		var hora4 = (hora3 + (hora1 / 2)); //9h
+		var hora5 = (hora4 + hora1);       //10h
+		var hora6 = (hora5 + hora1);       //11h
+		var hora7 = (hora6 + hora1);       //12h
+		var hora8 = (hora7 + hora1);       //13h
+		var hora9 = (capacidadeDia);       //14h
+
+		//VARIAVEIS BASEADO NA META PRIMEIRO TURNO
+
+		var metaDia = prompt("Qual é a meta do dia de Hoje?");
+		var hora11 = (metaDia / 8.30);      //6h
+		var hora12 = (hora11 * 2);           //7h
+		var hora13 = (hora12 + hora11);       //8h
+		var hora14 = (hora13 + (hora11 / 2)); //9h
+		var hora15 = (hora14 + hora11);       //10h
+		var hora16 = (hora15 + hora11);       //11h
+		var hora17 = (hora16 + hora11);       //12h
+		var hora18 = (hora17 + hora11);       //13h
+		var hora19 = (metaDia);       //14h
+			
+			dw("<h1>" + "A capacidade do dia é: " + capacidadeDia + " peças." + "</h1>");
+
+			dw("<b>Segue produtividade por hora com base no número de operadores:</b>");
+
+
+			pulaLinha();
+
+
+			dw("<b>" + "6h: " + Math.round(hora1) + "</b>");
+
+			dw("<b>" + "7h: " + Math.round(hora2) + "</b>");
+
+			dw("<b>" + "8h: " + Math.round(hora3) + "</b>");
+
+			dw("<b>" + "9h: " + Math.round(hora4) + "</b>");
+
+			dw("<b>" + "10h: " + Math.round(hora5) + "</b>");
+
+			dw("<b>" + "11h: " + Math.round(hora6) + "</b>");
+
+			dw("<b>" + "12h: " + Math.round(hora7) + "</b>");
+
+			dw("<b>" + "13h: " + Math.round(hora8) + "</b>");
+
+			dw("<b>" + "14h: " + Math.round(hora9) + "</b>");
+
+
+			pulaLinha();
+
+
+			dw("<h1>" + "A meta do dia é: " + metaDia + " peças." + "</h1>");
+
+			dw("<b>Segue produtividade por hora com base na meta diária:</b>");
+
+
+			pulaLinha();	
+
+
+			dw("<b>" + "6h: " + Math.round(hora11) + "</b>");
+
+			dw("<b>" + "7h: " + Math.round(hora12) + "</b>");
+
+			dw("<b>" + "8h: " + Math.round(hora13) + "</b>");
+
+			dw("<b>" + "9h: " + Math.round(hora14) + "</b>");
+
+			dw("<b>" + "10h: " + Math.round(hora15) + "</b>");
+
+			dw("<b>" + "11h: " + Math.round(hora16) + "</b>");
+
+			dw("<b>" + "12h: " + Math.round(hora17) + "</b>");
+
+			dw("<b>" + "13h: " + Math.round(hora18) + "</b>");
+
+			dw("<b>" + "14h: " + Math.round(hora19) + "</b>");
+	}
+
+
+	if (turno == 2){
+
+
+		//VARIAVEIS BASEADO NOS COLABORADORES SEGUNBDO TURNO
+
+		var operadores = prompt("Qual o número de operadores no Picking hoje?");
+		var capacidadeDia = (operadores * 3000);
+		var metaHora = (capacidadeDia / 8.30); 
+		var hora1 = (metaHora / 1.95);                //15h
+		var hora2 = (hora1 + metaHora);               //16h
+		var hora3 = (hora2 + metaHora);               //17h
+		var hora4 = (hora3 + (metaHora / 2));         //18h
+		var hora5 = (hora4 + metaHora);               //19h
+		var hora6 = (hora5 + metaHora);               //20h
+		var hora7 = (hora6 + metaHora);               //21h
+		var hora8 = (hora7 + metaHora);               //22h
+		var hora9 = (capacidadeDia);                  //23h
+
+		//VARIAVEIS BASEADO NA META SEGUNDO TURNO
+
+		var metaDia = prompt("Qual é a meta do dia de Hoje?");
+		var metaHora1 = (metaDia / 8.30);     
+		var hora11 = (metaHora1 / 1.95);           //15h
+		var hora12 = (hora11 + metaHora1);         //16h
+		var hora13 = (hora12 + metaHora1);         //17h
+		var hora14 = (hora13 + (metaHora1 / 2));   //18h
+		var hora15 = (hora14 + metaHora1);         //19h
+		var hora16 = (hora15 + metaHora1);         //20h
+		var hora17 = (hora16 + metaHora1);         //21h
+		var hora18 = (hora17 + metaHora1);         //22h
+		var hora19 = (metaDia);                    //23h
+			
+			dw("<h1>" + "A capacidade do dia é: " + capacidadeDia + " peças." + "</h1>");
+
+			dw("<b>Segue produtividade por hora com base no número de operadores:</b>");
+
+
+			pulaLinha();
+
+
+			dw("<b>" + "15h: " + Math.round(hora1) + "</b>");
+
+			dw("<b>" + "16h: " + Math.round(hora2) + "</b>");
+
+			dw("<b>" + "17h: " + Math.round(hora3) + "</b>");
+
+			dw("<b>" + "18h: " + Math.round(hora4) + "</b>");
+
+			dw("<b>" + "19h: " + Math.round(hora5) + "</b>");
+
+			dw("<b>" + "20h: " + Math.round(hora6) + "</b>");
+
+			dw("<b>" + "21h: " + Math.round(hora7) + "</b>");
+
+			dw("<b>" + "22h: " + Math.round(hora8) + "</b>");
+
+			dw("<b>" + "23h: " + Math.round(hora9) + "</b>");
+
+
+			pulaLinha();
+
+
+			dw("<h1>" + "A meta do dia é: " + metaDia + " peças." + "</h1>");
+
+			dw("<b>Segue produtividade por hora com base na meta diária:</b>");
+
+
+			pulaLinha();
+
+
+			dw("<b>" + "15h: " + Math.round(hora11) + "</b>");
+
+			dw("<b>" + "16h: " + Math.round(hora12) + "</b>");
+
+			dw("<b>" + "17h: " + Math.round(hora13) + "</b>");
+
+			dw("<b>" + "18h: " + Math.round(hora14) + "</b>");
+
+			dw("<b>" + "19h: " + Math.round(hora15) + "</b>");
+
+			dw("<b>" + "20h: " + Math.round(hora16) + "</b>");
+
+			dw("<b>" + "21h: " + Math.round(hora17) + "</b>");
+
+			dw("<b>" + "22h: " + Math.round(hora18) + "</b>");
+
+			dw("<b>" + "23h: " + Math.round(hora19) + "</b>");
+	}
+</script>
