@@ -5,10 +5,12 @@
 > <b>Cursos Finalizados:</b>
 > <br>
 >-> Javascript e HTML: desenvolva um jogo e pratique lógica de programação.
+> <br>
+>-> Git e GitHub: repositório, commit e versões.
 
 > <b>Cursos sendo feitos:</b> 
 > <br>
->-> Git e GitHub: repositório, commit e versões.
+>
 
 > <b>Cursos para fazer:</b>
 ><br>
